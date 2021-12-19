@@ -4,7 +4,7 @@ Version:	1.7.1
 Release:	1
 License:	GPL v3+
 Group:		Applications/System
-#Source0Download: https://github.com/libfuse/sshfs/releases
+#Source0Download: https://github.com/containers/fuse-overlayfs/releases
 Source0:	https://github.com/containers/fuse-overlayfs/archive/v%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	adf5b0cffa29ccabf1ba3ce916f1e821
 URL:		https://github.com/containers/fuse-overlayfs
