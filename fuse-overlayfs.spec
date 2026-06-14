@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 An implementation of overlay+shiftfs in FUSE for rootless containers.
 
 %description -l pl.UTF-8
-Implementacja overlay+shiftfs w FUSE dla kontenerów bez głównego
-systemu plików.
+Implementacja overlay+shiftfs w FUSE dla kontenerów niewymagających
+uprawnień administratora.
 
 %prep
 %setup -q
