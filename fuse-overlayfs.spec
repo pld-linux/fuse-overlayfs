@@ -1,4 +1,5 @@
 Summary:	FUSE implementation for overlayfs
+Summary(pl.UTF-8):	Implementacja overlayfs oparta na FUSE
 Name:		fuse-overlayfs
 Version:	1.17
 Release:	1
@@ -20,6 +21,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 An implementation of overlay+shiftfs in FUSE for rootless containers.
+
+%description -l pl.UTF-8
+Implementacja overlay+shiftfs w FUSE dla kontenerów bez głównego
+systemu plików.
 
 %prep
 %setup -q
